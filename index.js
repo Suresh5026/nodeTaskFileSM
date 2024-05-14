@@ -1,10 +1,11 @@
 const express = require('express');
 const fs = require('node:fs');
 const HTTP_SERVER =express();
+
+require('dotenv').config();
 const PORT = process.env.PORT;
 const HOSTNAME = process.env.HOSTNAME;
 
-require('dotenv').config();
 
 
 
