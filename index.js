@@ -37,7 +37,7 @@ HTTP_SERVER.post('/postReq',(req,res)=>{
 
 
 
-HTTP_SERVER.get("/getReq",(req,res,next)=>{
+HTTP_SERVER.get("/",(req,res,next)=>{
   fs.readdir('./Files',(err,files)=>{
     if(err){
         console.log(err);
